@@ -1,4 +1,4 @@
-# 🌞 Controle de Servo com Sensor de Luminosidade — BitDogLab
+# Controle de Servo com Sensor de Luminosidade — BitDogLab
 
 Este projeto utiliza a placa **BitDogLab** (Raspberry Pi Pico W) para monitorar a luminosidade ambiente através do **sensor BH1750** e controlar um **servo motor SG90** conforme o nível de luz detectado.
 
@@ -8,8 +8,8 @@ Este projeto utiliza a placa **BitDogLab** (Raspberry Pi Pico W) para monitorar 
 
 - O sensor **BH1750** mede a luminosidade em **lux** via comunicação **I2C**.  
 - O **servo SG90** é acionado conforme a intensidade da luz:
-  - 🌑 **Menos de 100 lux:** o servo gira **no sentido horário**.
-  - 🌕 **100 lux ou mais:** o servo gira **no sentido anti-horário** e a leitura é exibida no **Serial Monitor**.
+  -  **Menos de 100 lux:** o servo gira **no sentido horário**.
+  -  **100 lux ou mais:** o servo gira **no sentido anti-horário** e a leitura é exibida no **Serial Monitor**.
   
 Esse comportamento simula um sistema simples de **reação automática à luz**, podendo ser adaptado para aplicações como persianas automáticas, robótica ou sistemas de energia solar.
 
