@@ -22,7 +22,6 @@ Esse comportamento simula um sistema simples de **reação automática à luz**,
 | Raspberry Pi Pico W (BitDogLab) | Microcontrolador principal | — |
 | Sensor BH1750 | Medição de luminosidade (I2C) | SDA (GP0), SCL (GP1) |
 | Servo motor SG90 | Movimento rotacional | Pino de controle (ex: GP15) |
-| Jumpers | Conexões elétricas | — |
 
 ---
 
